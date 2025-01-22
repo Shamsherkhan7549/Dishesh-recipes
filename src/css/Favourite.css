@@ -1,0 +1,48 @@
+    .favourite{
+        right:0rem;
+        height:80vh;
+        width: 20rem;
+        position: fixed;
+        background-color: white;
+        padding:0  2rem 2rem 2rem;
+        border-bottom-left-radius: 5px;
+        overflow-x: hidden;
+       overflow-y: scroll;
+      
+
+    }
+
+    .favourite::-webkit-scrollbar{
+        width: 4px solid black;
+    }
+
+.h6{
+    background-color: white;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    padding: 2rem 0;
+    width: 100%;
+}
+
+.favourite .item{
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-weight: 600;
+    margin-top: 15px;
+    font-size:12px;
+    line-height: 0px;
+    gap: 20px;
+    padding:7px;
+}
+
+.favourite .item .content{
+        margin-top: 7px;
+}
+
+.favourite img{
+    border-radius: 4px;
+    height: 70px;
+    width: 70px;
+}

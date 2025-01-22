@@ -1,0 +1,13 @@
+
+.food-box{
+    height: 370px;
+}
+
+.food-box img{
+    height: 200px;
+    width: 100%;
+}
+
+.link{
+    text-decoration: none !important;
+}

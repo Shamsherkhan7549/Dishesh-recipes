@@ -1,0 +1,10 @@
+.food-image{
+    height: 300px;
+    width: 100%;
+}
+
+@media (max-width:750px) {
+    .food-image{
+        
+    }
+}

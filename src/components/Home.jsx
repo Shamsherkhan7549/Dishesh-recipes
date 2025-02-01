@@ -1,10 +1,10 @@
 import React, {useContext} from 'react'
-import responseApi from '../api'
 import Navbar from './Navbar';
 import { Link } from 'react-router';
 import { context } from '../context/ContextApi';
 import Favourite from './Favourite';
 import '../css/Home.css'
+import Footer from './Footer';
 const Home = () => {
   const {recipes, favourite, setFavourite,showFavourite} = useContext(context)
   const handlingFavourite = (id) => {
@@ -14,7 +14,7 @@ const Home = () => {
       return
     }
 
-    setFavourite(prevFavoutite=> [...prevFavoutite, food])
+    setFavourite(prevFavourite=> [...prevFavourite, food])
 
   }
 
@@ -38,6 +38,7 @@ const Home = () => {
        ))}
     </div>
     </div>
+    <Footer/>
     </>
   )
 }
